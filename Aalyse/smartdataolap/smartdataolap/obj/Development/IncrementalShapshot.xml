@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>smartdataolap</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>yBwzN5tZ/F/ypmf/cmSmMYhdZQY=07/01/2022 09:06:5107/01/2022 09:06:51</TimeStamp>
+        <ID>
+          <String>DW EXAMBI SP2122</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pNTtOAs3Yabk0vNrP/vM6cOxVIk=07/01/2022 09:07:0207/01/2022 09:07:01</TimeStamp>
+        <ID>
+          <String>DW EXAMBI SP2122</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qdM/SVYdddQyJwgTHcsG19pi5Rc=07/01/2022 09:12:5807/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>Dim Investor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UdqsCu6Rqth2+4nB2Zxi+Z7eqmM=07/01/2022 09:08:1207/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>83a54lz+fdFgV0Zey5H6DzMgBv8=07/01/2022 09:08:1207/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>Dim Account</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lzfOPCOPkyvnC23O1r5wjyt06wI=07/01/2022 09:11:1807/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>Dim Dates</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P58AwoDsbYY22Ox1JWsPLAh+NA8=07/01/2022 09:12:1507/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>Dim Project</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>la7p1/cKPgmU5KBuWO3Mts1vmAI=07/01/2022 09:17:2407/01/2022 09:07:17ix44MOxVeQK0CZARRSfm4uWUybY=07/01/2022 09:07:1707/01/2022 09:07:17</TimeStamp>
+        <ID>
+          <String>DW EXAMBI SP2122</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>MX4IICibniJVq/jDcYN2kaJz2iE=07/01/2022 09:05:1307/01/2022 09:05:11</TimeStamp>
+      <ID>
+        <String>smartdataolap</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-01-06T20:17:37.176667Z</LastDeployed>
+</DeploymentSnapshot>
